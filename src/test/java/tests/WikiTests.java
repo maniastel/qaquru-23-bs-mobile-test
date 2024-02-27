@@ -13,6 +13,7 @@ import static io.appium.java_client.AppiumBy.*;
 import static io.qameta.allure.Allure.step;
 
 @Tag("search")
+@DisplayName("Проверка поиска в приложении Wiki")
 public class WikiTests extends TestBase {
 
     TestData data = new TestData();
