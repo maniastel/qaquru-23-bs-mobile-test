@@ -49,3 +49,9 @@ tasks.withType(Test) {
         }
     }
 }
+
+task search (type: Test) {
+    useJUnitPlatform {
+        includeTags("search")
+    }
+}
